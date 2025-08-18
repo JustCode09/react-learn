@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-const myfirstElement = <h1>Hello, world!</h1>;
+import Car from './Car.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myfirstElement);
+root.render(<Car />);
