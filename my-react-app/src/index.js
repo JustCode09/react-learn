@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Car from './Car.js';
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car />);
+import FavoriteColor from "./Hooks";
+
+const root = createRoot(document.getElementById("root"));
+root.render(<FavoriteColor />);
